@@ -1,0 +1,14 @@
+Must haves:
+Model for worker (rigged)
+Better models such as the store roof so it gets textured better(this also includes the doorway)
+Refrigerator section model
+one ending at least
+Fog shader
+Fence model (To show invisible walls (sort of)
+Better House
+
+Would be nice to have:
+Different Endings
+Easter eggs
+start up intro (showing who created the game and such)
+Inventory system (displays what keys and such you have)

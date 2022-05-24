@@ -1,0 +1,576 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1651733051350991, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733051352443, "dur": 24644, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733051377454, "dur": 629071, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733052006545, "dur": 9896, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733073859250, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733073859559, "dur": 32991, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733073892552, "dur": 49878, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733073942471, "dur": 2568892, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733076511364, "dur": 6260066, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733082771432, "dur": 1514, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733082773731, "dur": 39, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1651733075848310, "dur": 571900, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651733075849408, "dur": 107150, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651733076380042, "dur": 15281, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651733076395329, "dur": 24857, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651733076396469, "dur": 13533, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651733076425685, "dur": 1356, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1651733076425145, "dur": 1928, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733082773904, "dur": 3712, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1651733076573316, "dur":1334, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733076574660, "dur":84, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1651733076574789, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1651733076574812, "dur":777, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1651733076575620, "dur":648, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733076576268, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082577884, "dur":244, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082578128, "dur":619, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082578747, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082578753, "dur":616, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082579369, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082579376, "dur":666, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082580042, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082580046, "dur":564, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082580610, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082580614, "dur":455, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082581069, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082581071, "dur":450, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082581521, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082581524, "dur":483, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082582007, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082582012, "dur":456, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082582468, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082582480, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082582497, "dur":24011, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1651733076575420, "dur":858, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076576280, "dur":5776, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076582065, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1651733076582067, "dur":400, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076582474, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1651733076582479, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076613171, "dur":14276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1651733076627449, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1651733076627593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076627604, "dur":28141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1651733076655784, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1651733076655911, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076656610, "dur":9421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1651733076666074, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1651733076666534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076666542, "dur":55433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1651733076722021, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1651733076722162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076722171, "dur":75040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1651733076797255, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1651733076797397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733076797405, "dur":204114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1651733077001565, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077001664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733077001709, "dur":170390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077172142, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077172265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733077172276, "dur":190539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077362868, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077362979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733077362989, "dur":227295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077590332, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077590442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733077590453, "dur":309472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077899976, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733077900097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733077900108, "dur":291581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078191737, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078191857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733078191869, "dur":217767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078409683, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078409794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733078409805, "dur":145581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078555423, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078555501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733078555509, "dur":168796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078724354, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078724453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733078724461, "dur":215480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078939981, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733078940074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733078940082, "dur":175129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733079115264, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733079115373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733079115384, "dur":168508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733079283932, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733079284027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733079284037, "dur":200038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733079484108, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733079484201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733079484209, "dur":184739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733079668990, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733079669093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733079669104, "dur":340448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080009592, "dur":15082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080024693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733080024702, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080026207, "dur":174497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Promise.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080200709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733080200718, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Promise.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080202685, "dur":159134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080361824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733080361834, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080363649, "dur":283297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Polybrush.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080646953, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733080646966, "dur":1942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Polybrush.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080648941, "dur":294024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.GameFoundation.Components.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080942970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733080942980, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.GameFoundation.Components.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080944964, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733080945078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733080945089, "dur":251399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733081196534, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733081196642, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733081196654, "dur":227471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733081424157, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733081424235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733081424293, "dur":178896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733081603238, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733081603356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733081603367, "dur":190548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733081793982, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733081794158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733081794171, "dur":478377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733082272592, "dur":281017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733082553614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1651733082553624, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1651733082555495, "dur":22351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651733076575728, "dur":657, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651733076576385, "dur":5711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651733076582097, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1651733076582616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1651733076775424, "dur":5734626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1651733082510113, "dur":67735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733076575480, "dur":849, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733076576329, "dur":5737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733076582066, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1651733076582605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733076629336, "dur":23508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1651733076652875, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1651733076653028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733076653040, "dur":5712695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1651733082365782, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1651733082365820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082365856, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1651733082368105, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082368159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082368172, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082370307, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082370359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082370370, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082372216, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1651733082372261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082372272, "dur":5429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":3, "ts":1651733082377745, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082377778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082377786, "dur":10646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082388495, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082388544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082388554, "dur":5761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082394364, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082394411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082394422, "dur":3805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082398273, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082398319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082398330, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082400896, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1651733082400946, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082401008, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1651733082405243, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082405291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082405302, "dur":3727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082409091, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082409140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082409151, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082411353, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1651733082411538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082411552, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1651733082413934, "dur":21741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1651733082435680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082435690, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1651733082437651, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082437697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082437707, "dur":4736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082442490, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082442537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082442548, "dur":4017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082446621, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1651733082446667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082446678, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level4" }}
+,{ "pid":12345, "tid":3, "ts":1651733082449014, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1651733082449055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082449065, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1651733082451007, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082451053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082451091, "dur":3984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082455126, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1651733082455171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082455182, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1651733082457905, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082457946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082457957, "dur":2119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082460156, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1651733082460206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082460217, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1651733082462333, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082462363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082462371, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1651733082464142, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1651733082464174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082464186, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1651733082466537, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082466583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082466593, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1651733082469027, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1651733082469072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082469082, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1651733082471226, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1651733082471365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1651733082471374, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1651733082473511, "dur":104360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651733076575742, "dur":647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651733076576390, "dur":5673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651733076582066, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1651733076582607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651733076655648, "dur":9201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1651733076664887, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1651733076665019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651733076665079, "dur":52064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1651733076717178, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1651733076717281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1651733076717289, "dur":5788253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1651733082505683, "dur":72186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076575768, "dur":626, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076576394, "dur":5703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076582098, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1651733076582237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076600292, "dur":12841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1651733076613179, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1651733076613313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076613428, "dur":26499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1651733076639985, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1651733076640101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076640109, "dur":30048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1651733076670190, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1651733076670291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076670299, "dur":54665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1651733076725001, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1651733076725101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076725109, "dur":3030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1651733076728185, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733076728346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076728558, "dur":218206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733076946825, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733076946939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733076947418, "dur":254847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733077202304, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733077202401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733077202409, "dur":182978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733077385430, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733077385520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733077385527, "dur":210168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733077595732, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733077595810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733077595818, "dur":315931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733077911793, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733077911887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733077911917, "dur":280040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733078192008, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733078192126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733078192138, "dur":264847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733078457040, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733078457132, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733078457140, "dur":180183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733078637371, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733078637480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733078637490, "dur":236233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733078873768, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733078873877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733078873888, "dur":140864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079014816, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079014936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733079014948, "dur":163829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079178825, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079178935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733079178945, "dur":107240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079286236, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079286328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733079286337, "dur":174424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079460791, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079460864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733079460872, "dur":138210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079599127, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079599233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733079599249, "dur":150631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079749926, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079750025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733079750037, "dur":153945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733079904026, "dur":234816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080138847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733080138856, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ResourceManager.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080141024, "dur":270416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080411445, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733080411455, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080413052, "dur":219137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.GameFoundation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080632195, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733080632222, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.GameFoundation.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080634594, "dur":225178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.GameFoundation.DefaultCatalog.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080859778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733080859787, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.GameFoundation.DefaultCatalog.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080861818, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733080861941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733080861950, "dur":402090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733081264091, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733081264285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733081264297, "dur":210627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733081474964, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733081475081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733081475093, "dur":350273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733081825397, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733081825477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1651733081825485, "dur":661009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1651733082486560, "dur":91316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733076575719, "dur":662, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733076576381, "dur":5684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733076582066, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1651733076582615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733076834817, "dur":11125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1651733076845989, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack.exe" }}
+,{ "pid":12345, "tid":6, "ts":1651733076846039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733076846046, "dur":163514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack.exe" }}
+,{ "pid":12345, "tid":6, "ts":1651733077009614, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077009734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733077009749, "dur":141439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077151243, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077151346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733077151356, "dur":213143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077364543, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077364656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733077364666, "dur":202238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077566987, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077567135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733077567147, "dur":290262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077857465, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733077857597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733077857609, "dur":335290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078192953, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078193095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733078193106, "dur":180612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078373767, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078373878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733078373889, "dur":142798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078516719, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078516810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733078516818, "dur":190919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078707775, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078707891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733078707900, "dur":239406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078947341, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733078947464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733078947475, "dur":162777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079110295, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079110400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733079110410, "dur":133997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079244468, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079244591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733079244601, "dur":180968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079425609, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079425715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733079425723, "dur":145507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079571273, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079571370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733079571378, "dur":219567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733079790990, "dur":231206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733080022200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733080022209, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733080024040, "dur":331747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733080355791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733080355801, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733080358679, "dur":489333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733080848018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733080848027, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733080849928, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733080850018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733080850026, "dur":308855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733081158928, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733081159025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733081159034, "dur":259500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733081418573, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733081418658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733081418666, "dur":299174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733081717887, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733081718010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733081718032, "dur":356807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733082074889, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733082075029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1651733082075042, "dur":482326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1651733082557405, "dur":20442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733076575571, "dur":800, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733076576371, "dur":5691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733076582065, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1651733076582232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733076587105, "dur":160255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1651733076747393, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733076747503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733076747535, "dur":187963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733076935549, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1651733076935697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733076936279, "dur":158415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1651733077094762, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733077094878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733077094886, "dur":211603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733077306532, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733077306645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733077306656, "dur":313504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733077620209, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733077620347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733077620385, "dur":254273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733077874708, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733077874837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733077874847, "dur":317490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078192384, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078192538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733078192547, "dur":203344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078395939, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078396017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733078396025, "dur":189563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078585636, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078585757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733078585767, "dur":151569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078737392, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078737507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733078737517, "dur":238915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078976473, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733078976553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733078976561, "dur":205581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733079182179, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733079182259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733079182266, "dur":218287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733079400581, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733079400653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733079400660, "dur":259143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733079659847, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733079659956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733079659966, "dur":176346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733079836358, "dur":490894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733080327257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733080327266, "dur":2014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733080329328, "dur":195850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733080525184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733080525194, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733080527154, "dur":255314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.GameFoundation.DefaultLayers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733080782475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733080782487, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.GameFoundation.DefaultLayers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733080784628, "dur":268386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733081053021, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733081053033, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Addressables.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733081055318, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733081055413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733081055422, "dur":398337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733081453804, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733081453917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733081453928, "dur":366614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733081820573, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733081820659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733081820668, "dur":355221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733082175935, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733082176048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1651733082176059, "dur":332178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":7, "ts":1651733082508282, "dur":69588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733076575625, "dur":751, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733076576376, "dur":5688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733076582066, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1651733076582609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733076696445, "dur":79225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1651733076775725, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733076775872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733076775881, "dur":309195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077085123, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077085221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733077085229, "dur":179145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077264417, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077264536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733077264548, "dur":208405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077473012, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077473141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733077473151, "dur":229001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077702197, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077702310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733077702321, "dur":194836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733077897209, "dur":329865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078227079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733078227088, "dur":1960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078229095, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078229201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733078229237, "dur":198350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078427627, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078427725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733078427733, "dur":174354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078602133, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078602221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733078602229, "dur":150292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078752584, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078752798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733078752811, "dur":228626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078981474, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733078981560, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733078981568, "dur":279756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733079261380, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733079261494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733079261504, "dur":219173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733079480712, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733079480794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733079480801, "dur":190782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733079671633, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733079671747, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733079671758, "dur":181464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733079853252, "dur":158988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080012247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733080012257, "dur":1683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ScriptableBuildPipeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080013988, "dur":16114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080030109, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733080030121, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080031935, "dur":9048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080040988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733080041000, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProGrids.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080042915, "dur":205694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080248614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733080248623, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080250487, "dur":471614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080722106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733080722115, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080725044, "dur":136660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080861745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733080861758, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080863697, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733080863809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733080863817, "dur":215630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733081079487, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733081079624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733081079637, "dur":368245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733081447929, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733081448052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733081448063, "dur":353849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733081801956, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733081802049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733081802058, "dur":447572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733082249664, "dur":325768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733082575437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1651733082575462, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/richard.larssonivar/Downloads/Late Game Snack/A Late Night Snack_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1651733082577827, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1651733082577829, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1651733082658449, "dur":2908, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1651733082777716, "dur": 843, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1651733082773716, "dur": 4869, "ph": "X", "name": "Write chrome-trace events", "args": {} },
